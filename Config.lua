@@ -26,13 +26,9 @@ Config.main = {
 Config.societymoney = true
 
 
-Config.policejob = 'police' -- your policejob name drom db
-Config.event = 'Night:policegarage' --- change it to 'Night:policegaragemoney' if you want the cars to take money!
+Config.policejob = 'police' -- your policejob name drom db this is to use qtarget!
 
-
---garage ambulance
 Config.ambulancejob = 'ambulance'
-Config.event2 = 'Night:ambulance'
 
 Config.garages = {
 
