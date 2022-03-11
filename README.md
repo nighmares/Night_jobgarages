@@ -2,7 +2,7 @@
 
 police and ems garage, easy to add more
 
-REQUIREMENTS:
+# REQUIREMENTS:
 
 .ESX-legacy
 
@@ -10,7 +10,7 @@ REQUIREMENTS:
 
 .nh-menu
 
-FEATURES: 
+# FEATURES: 
 
 .show cars depending on your grade
 
