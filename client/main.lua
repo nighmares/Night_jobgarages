@@ -175,20 +175,20 @@ RegisterNetEvent('Night:cardelete')
 AddEventHandler('Night:cardelete', function()
 
     if night then
-        carspawn()
+        cardelete()
         notifies('Thanks for bring it back bad!')
         night = false
 
     elseif admin then
 
-        carspawn()
+        cardelete()
         notifies('Thanks for bring it back bad!')
         admin = false
     end         
       
 end)
 
-function carspawn()
+function cardelete()
 
     local vehicle = GetVehiclePedIsIn(PlayerPedId(),true)
     SetEntityAsMissionEntity(vehicle, true, true)
@@ -196,7 +196,7 @@ function carspawn()
     Wait(2000)
     NetworkFadeOutEntity(vehicle, true,false)
     Wait(2000)
-    DeleteVehicle(vehicle)
+    ESX.Game.DeleteVehicle(vehicle)
 
 end    
 
